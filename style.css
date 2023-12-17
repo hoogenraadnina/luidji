@@ -1,6 +1,176 @@
-body  {
-    background-image: url("luidji\ foto\ 1.jpg");
-    background-color: #cccccc;
-    font-family:fantasy;
-  }
+•* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.achtergrond {
+  background-image: url("image/luidji\ foto\ 1.jpg");
+  background-color: #cccccc;
+  background-size: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: rgb(230, 230, 250);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  color: plum;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+}
+
+/* footer instellingen*/
+footer {
+  height: 5vh;
+  margin-bottom: 10%;
+}
+
+.logo {
+  height: 10vh;
+}
+
+.center {
+  display: flex;
+  text-align: center;
+}
+
+/* nav bar */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  align-items: center;
+}
+
+li a {
+  color: black;
+  padding-bottom: 1vh;
+  padding: 1vh;
+  text-decoration: none;
+  vertical-align: sub;
+}
+
+li a:hover {
+  background-color: plum;
+}
+
+a {
+  display: flex;
+  padding: 15px;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+nav li img {
+  height: 2rem;
+}
+
+.llogo {
+  height: 8vh;
+}
+
+/*index*/
+
+.paragraaf {
+  display: flex;
+  justify-content: space-between;
+  gap: 700px;
+}
+
+.paragraaf1 {
+  text-align: left;
+}
+
+.paragraaf2 {
+  text-align: right;
+}
+
+/*albums*/
+
+/*alle photos op goeie formaat*/
+
+.image {
+  width: 25vw;
+}
+
+
+/*flexbox om ze te align center*/
+
+.albums {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+/*concerts*/
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.video1 {
+  width: 50vw;
+  height: 65vh;
+  display: block;
+  margin-left: auto;
+}
+
+.video2 {
+  width: 50vw;
+  height: 65vh;
+  display: block;
+  margin-right: auto;
+}
+
+.videos {
+  display: flex;
+  text-align: center;
+  text-align: center;
+
+}
+
+
+/*button voor meer concerten*/
+
+.button {
+  transition: all 0.4s;
+  text-align: center;
+}
+
+.button:link,
+a:visited {
+  background-color: plum;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.button:hover,
+a:active {
+  background-color: plum;
+  transform: scale(1.1)
+}
+
+
+/*gossip*/
+
+.gifluidji {
+  display: flex;
+  float: left;
+}
+
+.gossiptekst {
+  float: right;
+  width: 80%;
+}
